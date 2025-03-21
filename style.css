@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: #fff;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #5801a4, #1b66d5);
+}
+
+div {
+    text-align: center;
+    font-size: 15rem;
+}
+
+#l,
+#a,
+#s,
+#h,
+#icon,
+#complete {
+    display: none;
+}
+
+span {
+    text-shadow: 3px 3px 15px rgb(9, 209, 231);
+}
